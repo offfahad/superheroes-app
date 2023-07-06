@@ -48,7 +48,8 @@ fun HeroListItem(
 ){
     Card(
         elevation = CardDefaults
-            .cardElevation(defaultElevation = 2.dp)
+            .cardElevation(defaultElevation = 2.dp),
+        modifier = Modifier.padding(16.dp)
     ) {
         Row(modifier = Modifier
             .fillMaxWidth()
